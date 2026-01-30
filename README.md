@@ -4,7 +4,7 @@
 
 | Izolācijas Līmenis |  Dirty Reads  | Non-Repeating Reads | Phantom  Reads |  Lost Updates  |
 |--------------------|---------------|---------------------|----------------|----------------|
-|  READ  UNCOMMITED  |Nav iespējams❌| Nav iespējams❌  |Nav iespējams❌|Nav  iespējams❌|
-|   READ  COMMITED   |Ir  iespējams✅| Nav iespējams❌  |Nav iespējams❌|Nav  iespējams❌|
-|  REPEATABLE  READ  |Ir  iespējams✅|  Ir iespējams✅  |Nav iespējams❌|Nav  iespējams❌| 
-|     SERIAZABLE     |Ir  iespējams✅|  Ir iespējams✅  |Ir iespējams✅ | Ir iespējams✅ | 
+|  READ  UNCOMMITED  |Ir  iespējams✅|    Ir iespējams✅  |Ir iespējams✅ |Ir  iespējams✅ |
+|   READ  COMMITED   |Nav iespējams❌|   Ir iespējams✅   |Ir iespējams✅ | Ir iespējams✅ |
+|  REPEATABLE  READ  |Nav iespējams❌|  Nav iespējams❌   |Nav iespējams❌| Ir iespējams✅ | 
+|     SERIAZABLE     |Nav iespējams❌|   Nav iespējams❌  |Nav iespējams❌ |Nav iespējams❌| 
